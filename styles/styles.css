@@ -26,8 +26,17 @@ body {
     font-weight: 600;
     cursor: pointer;
     display: inline-block;
+}
+
+.btn-1{
     background-color: #30B868;
     color: white;
+}
+
+.btn-2{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
 }
 
 /* nav styles */
@@ -63,4 +72,61 @@ body {
 
 .nav-menu a:hover{
     color: #30B868;
+}
+
+/* hero styles */
+
+.hero{
+    background-image: url("../images/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero-container{
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.early-access-badge {
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.hero h1 {
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+
+.green-text {
+    color: #30B868;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.hero-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
 }
