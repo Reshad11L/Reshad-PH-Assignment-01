@@ -179,10 +179,6 @@ body {
     background-color: #F95555;
 }
 
-.icon-yellow {
-    background-color: #F95555;
-}
-
 .card-icon img {
     width: 24px;
     height: 24px;
@@ -271,8 +267,14 @@ body {
 /* early */
 
 .early-access-section {
-    padding: 100px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    align-items: center;
     background-color: #F7F6F2;
+    padding: 80px 40px 80px 40px;
+    gap: 24px;
+    border-radius: 12px;
 }
 
 .early-access-container {
